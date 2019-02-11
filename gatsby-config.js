@@ -6,6 +6,13 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-hotjar`,
+      options: {
+        id: '1194857',
+        sv: '',
+      },
+    },
+    {
       resolve: `gatsby-plugin-facebook-pixel`,
       options: {
         pixelId: '184623225387301',
