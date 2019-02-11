@@ -19,7 +19,7 @@ const Layout = ({ children }) => (
     render={data => {
       return (
         <>
-          <div className="content-page" style={{ paddingTop: '80px' }}>
+          <div className="content-page" style={{ padding: '80px 10px 0' }}>
             {children}
           </div>
           <Footer />

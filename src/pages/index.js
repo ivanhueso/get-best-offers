@@ -18,7 +18,10 @@ export default class Index extends React.Component {
           <div class="main" style={{ width: '300px', margin: '0 auto 40px' }}>
             <Image />
           </div>
-          <Link to="/baby-samples-savings" title="Get Free Diapers Samples">
+          <Link
+            to="/baby-samples-savings?s1=homepage-banner"
+            title="Get Free Diapers Samples"
+          >
             <Banner />
           </Link>
         </div>
