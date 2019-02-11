@@ -8,7 +8,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-hotjar`,
       options: {
-        id: '1194857',
+        id: '1194868',
         sv: '6',
       },
     },
