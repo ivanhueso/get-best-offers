@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{180:function(e,n,a){"use strict";a.r(n);a(83);var t=a(0),o=a.n(t);n.default=function(e){var n=e.location;return o.a.createElement("div",null,o.a.createElement("h4",null,"Hello from TestqueryParams"),o.a.createElement("a",{href:"https://www.google.com".concat(n.search)},"Link"))}}}]);
+//# sourceMappingURL=component---src-pages-baby-samples-savings-new-js-8064e95f0108461f4dc8.js.map
