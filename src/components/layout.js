@@ -22,6 +22,7 @@ const Layout = ({ children }) => (
           <div className="content-page" style={{ padding: '80px 10px 0' }}>
             {children}
           </div>
+
           <Footer />
         </>
       )

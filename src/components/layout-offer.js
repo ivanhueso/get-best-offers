@@ -1,11 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
-
 import Footer from './footer'
 import './layout.css'
 import BackgroundImage from 'gatsby-background-image'
-
 const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`
@@ -27,6 +25,7 @@ const Layout = ({ children }) => (
     render={data => {
       // Set ImageData.
       const imageData = data.desktop.childImageSharp.fluid
+
       return (
         <BackgroundImage
           Tag="section"
@@ -35,6 +34,7 @@ const Layout = ({ children }) => (
           style={{ minHeight: '100vh' }}
         >
           <div className="content-page">{children}</div>
+
           <Footer />
         </BackgroundImage>
       )

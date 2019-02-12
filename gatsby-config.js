@@ -6,6 +6,10 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-create-client-paths`,
+      options: { prefixes: [`/baby-samples-savings-new/*`] },
+    },
+    {
       resolve: `gatsby-plugin-hotjar`,
       options: {
         id: '1194868',
