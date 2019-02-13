@@ -1,0 +1,41 @@
+.starbucks-gift-card {
+  min-height: 100vh;
+
+  h1 {
+    color: #000;
+  }
+
+  h3 {
+    margin-top : 10px;
+    font-weight: 700;
+
+    strong {
+      color: #00902f;
+    }
+  }
+
+  .box {
+    background  : #eee;
+    border-color: #00902f !important;
+  }
+
+  a.orange {
+    background   : #ff4c00;
+    border-radius: 20px;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  footer {
+    a,
+    p,
+    span {
+      color         : #fff;
+      font-family   : sans-serif;
+      letter-spacing: 0.5px;
+      font-weight   : 300;
+    }
+  }
+}

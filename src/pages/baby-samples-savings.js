@@ -1,7 +1,6 @@
 import React from 'react'
 import Layout from '../components/layout-offer'
 import SEO from '../components/seo'
-import $ from 'jquery'
 
 const url =
   'https://www.mb102.com/lnk.asp?o=12088&c=918277&a=367983&k=18C219D555218DF6260B6A9C28EC5F5D&l=12366'
@@ -18,13 +17,13 @@ const BabySamplesSavings = () => (
           <h1>How Did You Hear About This Offer?</h1>
           <h3>RECEIVE A FREE BOX OF BABY SAMPLES</h3>
 
-          <a href={this.goTo(url, loc)} title="Instagram" className="btn-blue">
+          <a href={url} title="Instagram" className="btn-blue">
             INSTAGRAM
           </a>
-          <a href={this.goTo(url, loc)} title="Facebook" className="btn-blue">
+          <a href={url} title="Facebook" className="btn-blue">
             FACEBOOK
           </a>
-          <a href={this.goTo(url, loc)} title="Google" className="btn-blue">
+          <a href={url} title="Google" className="btn-blue">
             GOOGLE
           </a>
         </div>

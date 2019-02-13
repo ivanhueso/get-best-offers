@@ -5,6 +5,7 @@ module.exports = {
     author: `@getbestoffers`,
   },
   plugins: [
+    `gatsby-plugin-sass`,
     {
       resolve: `gatsby-plugin-create-client-paths`,
       options: { prefixes: [`/baby-samples-savings-new/*`] },
