@@ -16,7 +16,6 @@ const BabySamplesSavings = () => (
         <div className="box">
           <h1>How Did You Hear About This Offer?</h1>
           <h3>RECEIVE A FREE BOX OF BABY SAMPLES</h3>
-
           <a href={url} title="Instagram" className="btn-blue">
             INSTAGRAM
           </a>

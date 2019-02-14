@@ -13,8 +13,8 @@ const Index = () => (
       title="Latest Offers"
       keywords={[`free diapers`, `diapers samples`, `best samples`]}
     />
-    <div class="wrapper">
-      <div class="main" style={{ width: '300px', margin: '0 auto 40px' }}>
+    <div className="wrapper">
+      <div className="main" style={{ width: '300px', margin: '0 auto 40px' }}>
         <Image />
       </div>
       <Link

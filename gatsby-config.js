@@ -11,24 +11,20 @@ module.exports = {
       options: { prefixes: [`/baby-samples-savings-new/*`] },
     },
     {
-      resolve: `gatsby-plugin-hotjar`,
-      options: {
-        id: '1194868',
-        sv: '6',
-      },
-    },
-    {
       resolve: `gatsby-plugin-facebook-pixel`,
       options: {
         pixelId: '184623225387301',
       },
     },
     {
-      resolve: 'gatsby-plugin-web-font-loader',
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
-        google: {
-          families: ['Droid Sans'],
-        },
+        fonts: [
+          {
+            family: `Roboto`,
+            subsets: [`latin`],
+          },
+        ],
       },
     },
     `gatsby-plugin-react-helmet`,

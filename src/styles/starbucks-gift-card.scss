@@ -2,12 +2,16 @@
   min-height: 100vh;
 
   h1 {
-    color: #000;
+    color       : #000;
+    font-size   : 35px;
+    margin-left : 0;
+    margin-right: 0;
   }
 
   h3 {
-    margin-top : 10px;
+    margin-top : 15px;
     font-weight: 700;
+    color      : #999;
 
     strong {
       color: #00902f;
@@ -22,6 +26,7 @@
   a.orange {
     background   : #ff4c00;
     border-radius: 20px;
+    cursor       : pointer;
 
     &:hover {
       opacity: 0.8;
@@ -38,4 +43,8 @@
       font-weight   : 300;
     }
   }
+}
+
+.hide {
+  display: none;
 }
