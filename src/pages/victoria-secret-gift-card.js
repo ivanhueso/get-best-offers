@@ -46,12 +46,11 @@ export default class VictoriaSecret extends React.Component {
             <BackgroundImage
               Tag="section"
               fluid={imageData}
-              backgroundColor={`#040e18`}
-              className="starbucks-gift-card"
+              backgroundColor={`#fbeaf1`}
             >
               <SEO
                 title="Victoria Secret Gift Card | GB Offers"
-                description="Get a FREE £5 Starbucks Gift Card"
+                description="WIN A $500 VICTORIA'S SECRET GIFT CARD"
               />
               <div className="content-page">
                 <div className="wrapper">
