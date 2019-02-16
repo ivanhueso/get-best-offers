@@ -11,6 +11,13 @@ module.exports = {
       options: { prefixes: [`/baby-samples-savings-new/*`] },
     },
     {
+      resolve: `gatsby-plugin-hotjar`,
+      options: {
+        id: '1194868',
+        sv: '6',
+      },
+    },
+    {
       resolve: `gatsby-plugin-facebook-pixel`,
       options: {
         pixelId: '184623225387301',

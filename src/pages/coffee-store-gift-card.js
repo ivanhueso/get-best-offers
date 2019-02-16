@@ -8,7 +8,7 @@ import '../styles/starbucks-gift-card.scss'
 import BackgroundImage from 'gatsby-background-image'
 
 const url =
-  'https://www.mb102.com/lnk.asp?o=11964&c=918277&a=367983&k=BFD2058767BE27F81C974DC2CBE75986&l=12176'
+  'https://www.mb103.com/lnk.asp?o=14786&c=918277&a=367983&k=80953CC098748A416936B003561D898F&l=15591'
 
 export default class OfertaLaboral extends React.Component {
   state = {
@@ -50,8 +50,8 @@ export default class OfertaLaboral extends React.Component {
               className="starbucks-gift-card"
             >
               <SEO
-                title="Coffe Store Gift Card | GB Offers"
-                description="Your chance to win a £150 starbucks gift card"
+                title="Coffee Store Gift Card | GB Offers"
+                description="Get a FREE £5 Starbucks Gift Card"
               />
               <div className="content-page">
                 <div className="wrapper">
@@ -61,19 +61,19 @@ export default class OfertaLaboral extends React.Component {
                         How Did You Hear About This Offer?
                       </h1>
                       <h1 className={this.state.step !== `66%` ? `hide` : ``}>
-                        How Many Cups Of Coffee Do You Drink Every Day?
+                        What Is The Most Important Aspect Of Your Coffee?
                       </h1>
                       <h1 className={this.state.step !== `100%` ? `hide` : ``}>
                         How Much Do You Usually Spend When Going Out For Coffee?
                       </h1>
 
-                      <h3> YOUR CHANCE TO WIN A £150 COFFEE STORE GIFT CARD</h3>
+                      <h3> GET A FREE £5 STARBUCKS GIFT CARD</h3>
                       <ProgressBar step={this.state.step} />
 
                       <a
                         nohref="true"
                         onClick={event => this.nextStep(`66%`)}
-                        title="Facebook"
+                        title="Instagram"
                         className="btn-blue orange"
                         className={
                           this.state.step !== `33%`
@@ -113,43 +113,43 @@ export default class OfertaLaboral extends React.Component {
                       <a
                         nohref="true"
                         onClick={event => this.nextStep(`100%`)}
-                        title="Facebook"
+                        title="Price"
                         className={
                           this.state.step !== `66%`
                             ? `btn-blue orange hide`
                             : `btn-blue orange`
                         }
                       >
-                        1 - 2
+                        Price
                       </a>
                       <a
                         nohref="true"
                         onClick={event => this.nextStep(`100%`)}
-                        title="Facebook"
+                        title="Taste"
                         className={
                           this.state.step !== `66%`
                             ? `btn-blue orange hide`
                             : `btn-blue orange`
                         }
                       >
-                        3 - 4
+                        Taste
                       </a>
                       <a
                         nohref="true"
                         onClick={event => this.nextStep(`100%`)}
-                        title="Google"
+                        title="Temperature"
                         className={
                           this.state.step !== `66%`
                             ? `btn-blue orange hide`
                             : `btn-blue orange`
                         }
                       >
-                        5 or more
+                        Temperature
                       </a>
 
                       <a
                         href={url}
-                        title="Facebook"
+                        title="£3 or less"
                         className={
                           this.state.step !== `100%`
                             ? `btn-blue orange hide`
@@ -160,7 +160,7 @@ export default class OfertaLaboral extends React.Component {
                       </a>
                       <a
                         href={url}
-                        title="Facebook"
+                        title="£3 - £10"
                         className={
                           this.state.step !== `100%`
                             ? `btn-blue orange hide`
@@ -171,7 +171,7 @@ export default class OfertaLaboral extends React.Component {
                       </a>
                       <a
                         href={url}
-                        title="Google"
+                        title="£10 or more"
                         className={
                           this.state.step !== `100%`
                             ? `btn-blue orange hide`
