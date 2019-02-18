@@ -47,10 +47,11 @@ export default class VictoriaSecret extends React.Component {
               Tag="section"
               fluid={imageData}
               backgroundColor={`#fbeaf1`}
+              className="victoria-secret"
             >
               <SEO
                 title="Victoria Secret Gift Card | GB Offers"
-                description="WIN A $500 VICTORIA'S SECRET GIFT CARD"
+                description="WIN A $100 VICTORIA'S SECRET GIFT CARD"
               />
               <div className="content-page">
                 <div className="wrapper">
@@ -66,7 +67,7 @@ export default class VictoriaSecret extends React.Component {
                         How Much Do You Spend A Year On Lingerie?
                       </h1>
 
-                      <h3>WIN A $500 VICTORIA'S SECRET GIFT CARD</h3>
+                      <h3>WIN A $100 VICTORIA'S SECRET GIFT CARD</h3>
                       <ProgressBar step={this.state.step} />
 
                       <a
