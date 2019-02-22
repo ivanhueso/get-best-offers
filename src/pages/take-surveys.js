@@ -8,7 +8,7 @@ import '../styles/take-surveys.scss'
 import Image from '../components/take-surveys'
 
 const url =
-  'https://www.mb102.com/lnk.asp?o=2634&c=918277&a=367983&k=57B38677C15CEC10441BA7761FF66E42&l=2051'
+  'https://www.mb01.com/lnk.asp?o=9851&c=918277&a=367983&k=FDE879D5DC06C6C79D1DEC3DA81434E5&l=9540'
 
 export default class VictoriaSecret extends React.Component {
   state = {
@@ -42,34 +42,26 @@ export default class VictoriaSecret extends React.Component {
                 <div className="wrapper">
                   <div className="main">
                     <div className="box">
-                      <h1>Make Money Online</h1>
+                      <h1>How Did You Hear About This Offer?</h1>
 
-                      <h3>HAVE FUN AND GET PAID FOR DOING SURVEYS</h3>
+                      <h3>TAKE SURVEYS. GET PAID. IT'S FREE</h3>
 
-                      <a href={url} title="Get Started - FREE">
-                        <Image />
-                      </a>
-
-                      <h3 style={{ marginTop: '40px' }}>
-                        HOW DO YOU PARTICIPATE?
-                      </h3>
-
-                      <p>
-                        Membership is always free and you can join by filling
-                        out the <a href={url}>registration form</a>. Once
-                        membership is confirmed, you can start earning points by
-                        completing online surveys anytime and anywhere via PC,
-                        Laptop, Tablet, Cell Phone or Mobile App. After
-                        accumulating a certain amount of points, members are
-                        able to redeem them for items within our rewards
-                        catalog. Join now and get paid to take surveys!
-                      </p>
                       <a
                         href={url}
-                        title="Get Started - FREE"
+                        title="Facebook"
                         className="btn-blue orange"
                       >
-                        Get Started - FREE
+                        Facebook
+                      </a>
+                      <a
+                        href={url}
+                        title="Instagram"
+                        className="btn-blue orange"
+                      >
+                        Instagram
+                      </a>
+                      <a href={url} title="Google" className="btn-blue orange">
+                        Google
                       </a>
                     </div>
                   </div>
